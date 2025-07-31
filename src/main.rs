@@ -5,7 +5,7 @@ use rocket::State;
 use reqwest::Client;
 use bytes::Bytes;
 
-static MII_RENDERER_URL: &str = "https://mii-unsecure.ariankordi.net/";
+static MII_RENDERER_URL: &str = "https://mii-render.spfn.net";
 
 static ALLOWED_FORMATS: [&str; 2] = [
     "png",
